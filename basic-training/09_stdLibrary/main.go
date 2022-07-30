@@ -26,7 +26,7 @@ func main() {
 	index := sort.SearchInts(ages, 30)
 	fmt.Println(index)
 
-	names := []string{"Geralt", "Triss", "Jaskier", "Plotka", "Dikstra"}
+	names := []string{"Geralt", "Triss", "Jaskier", "Plotka", "Dijkstra"}
 	sort.Strings(names)
 	fmt.Println(names)
 
